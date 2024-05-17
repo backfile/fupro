@@ -13,10 +13,7 @@ int main(int argc, char *argv[]) {
 	int n = 2;
 	
 	do{
-		
-		bool resultado = es_primo(n);
-		
-		if(resultado == true){
+		if(es_primo(n)){
 			cout << n << " es primo" << endl;
 			numeros_encontrados = numeros_encontrados + 1;
 		}
